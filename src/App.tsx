@@ -13,7 +13,7 @@ type Todo = {
 
 function App() {
   const [search, setSearch] = useState("");
-  const [todos, setTodos] = useState<Todo[]>([]);
+  const [todos, setTodos] = useState([]);
 
   function toggleCompleted(id: number) {
     // we make  a copy
@@ -28,9 +28,9 @@ function App() {
         "Content-Type": "application/json",
       },
 
-      body: JSON.stringify(match),
-    });
-    method: "PATCH";
+      body: JSON.stringify(match)
+    })
+
 
     // update todos
     setTodos(todosCopy);

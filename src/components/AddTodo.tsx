@@ -14,7 +14,7 @@ export function AddTodo({ createTodo }) {
                 required
                 minLength={3}
             />
-            <button> ADD TODO</button>
+            <button className="add-button"> ADD TODO</button>
         </form>
     );
 }

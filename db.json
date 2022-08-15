@@ -1,34 +1,14 @@
 {
   "todos": [
     {
-      "id": 1,
-      "text": "Practise React",
-      "completed": true
-    },
-    {
-      "id": 2,
-      "text": "Read a Book",
-      "completed": true
-    },
-    {
-      "id": 3,
-      "text": "Eat your vegies",
-      "completed": true
-    },
-    {
-      "id": 4,
-      "text": "Share the Love",
-      "completed": true
-    },
-    {
-      "id": 5,
-      "text": "Be good at react",
-      "completed": true
-    },
-    {
-      "text": "hello!",
+      "text": "hallo",
       "completed": false,
-      "id": 6
+      "id": 1
+    },
+    {
+      "text": "buy milk",
+      "completed": false,
+      "id": 2
     }
   ]
 }

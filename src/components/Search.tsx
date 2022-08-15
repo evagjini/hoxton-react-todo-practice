@@ -1,14 +1,11 @@
 import React from "react"
 
-type Props = {
-    setSearch: React.Dispatch<React.SetStateAction<string>>
-}
 
-export function Search({ setSearch }: Props) {
 
+export function Search({ setSearch }: any) {
 
     return (
-        <input placeholder="Search"
+        <input placeholder="Search" className="search-input"
             onChange={(event) => {
                 setSearch(event.target.value)
             }} />
