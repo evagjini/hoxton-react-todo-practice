@@ -1,15 +1,22 @@
-type Props = {
-    toggleCompleted: void
-}
-
-
-
-export function SingleTodo({ todo, toggleCompleted }) {
+export function SingleTodo({ todo, toggleCompleted, deleteTodo }) {
     return (
-        <li key={todo.id} className={todo.completed ? 'completed' : ''} onClick={() => {
-            toggleCompleted(todo.id)
-        }}>
-            {todo.text}
+        <li key={todo.id} className={todo.completed ? "completed" : ""}>
+            <span
+                onClick={() => {
+                    toggleCompleted(todo.id);
+                }}
+            >
+                {todo.text}
+            </span>
+
+            <button
+                onClick={() => {
+                    deleteTodo(todo.id);
+                }}
+            >
+                {" "}
+                X{" "}
+            </button>
         </li>
-    )
+    );
 }
