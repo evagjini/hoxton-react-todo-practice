@@ -13,7 +13,7 @@ export function SingleTodo({ todo, toggleCompleted, deleteTodo }) {
                 onClick={() => {
                     deleteTodo(todo.id);
                 }}
-            >
+                className='x-button'>
                 {" "}
                 X{" "}
             </button>

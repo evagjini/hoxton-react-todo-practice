@@ -1,3 +1,9 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 .App {
   text-align: center;
 }
@@ -38,10 +44,13 @@
 }
 
 button {
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
 }
 .title {
-  background-color: rgb(215, 180, 115);
+  background-color: rgb(214, 242, 242);
+  width: 50%;
+  color: rgb(7, 7, 7);
+  font-family: "Times New Roman", Times, serif;
 }
 .completed {
   text-decoration: line-through;
@@ -54,8 +63,19 @@ button {
   background-color: #61dafb;
 }
 .search-input {
-  background-color: rgb(192, 199, 177);
+  background-color: rgb(226, 234, 209);
+  margin-top: 1rem;
 }
 .add-button {
   font-size: 10px;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.x-button {
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 1px 2px;
 }

@@ -22,7 +22,7 @@ export function TodoList({
             .then((todosFromServer) => setTodos(todosFromServer));
     }, []);
     return (
-        <ul>
+        <ul className="todo-list">
             {filteredTodos.map((todo) => (
                 <SingleTodo
                     key={todo.id}

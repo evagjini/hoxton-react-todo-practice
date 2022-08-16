@@ -1,12 +1,12 @@
 {
   "todos": [
     {
-      "text": "hallo",
+      "text": "milk",
       "completed": false,
       "id": 1
     },
     {
-      "text": "buy milk",
+      "text": "cokollat",
       "completed": false,
       "id": 2
     }
