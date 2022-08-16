@@ -3,6 +3,7 @@ import { SingleTodo } from "./SingleTodo";
 
 type Props = {
     search: string;
+    todos: Todo[]
 };
 
 export function TodoList({

@@ -1,14 +1,9 @@
 {
   "todos": [
     {
-      "text": "milk",
+      "text": "i love you",
       "completed": false,
       "id": 1
-    },
-    {
-      "text": "cokollat",
-      "completed": false,
-      "id": 2
     }
   ]
 }

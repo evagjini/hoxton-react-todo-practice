@@ -19,13 +19,13 @@ function App() {
     // we make  a copy
     let todosCopy = structuredClone(todos);
     /// change the state we need to find
-    const match = todosCopy.find((todo) => todo.id === id);
+    const match = todosCopy.find(todo => todo.id === id);
     match.completed = !match.completed;
 
     fetch(`http://localhost:3005/todos/${id}`, {
-      method: "PATCH",
+      method: 'PATCH',
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
 
       body: JSON.stringify(match)

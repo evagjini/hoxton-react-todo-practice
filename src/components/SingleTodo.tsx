@@ -1,6 +1,6 @@
 export function SingleTodo({ todo, toggleCompleted, deleteTodo }) {
     return (
-        <li key={todo.id} className={todo.completed ? "completed" : ""}>
+        <li className={todo.completed ? "completed" : ""}>
             <span
                 onClick={() => {
                     toggleCompleted(todo.id);
@@ -14,8 +14,8 @@ export function SingleTodo({ todo, toggleCompleted, deleteTodo }) {
                     deleteTodo(todo.id);
                 }}
                 className='x-button'>
-                {" "}
-                X{" "}
+
+                X
             </button>
         </li>
     );
